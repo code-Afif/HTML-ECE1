@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="./response.html" target="_blank" name="biodata" method="get"></form>
+    <fieldset>
+        <legend>Bio Data</legend>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Ener Your Name" required>
+        <br>
+        <br>
+        <label for="Date Of Birth">Date of Birth:</label>
+        <input type="date" id="Date Of Birth" required>
+        <br>
+        <br>
+        <label for="attempt">Attempt:</label>
+        <input type="number" id="Attempt" name="attempt" min="1" max="10" placeholder="No. of Attempt" >
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter Your Email" required>
+        <br>
+        <br>
+        <label for="ph number">Phone Number:</label>
+        <input type="number" id="ph number" name="Phone Number" placeholder="Enter Your Phone Number" required>
+        <br>
+        <br>
+        <label for="add">Address:</label>
+        <textarea name="add" id="Address" placeholder="Enter Your Address" rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <label for="gender">Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" >
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label>
+        <input type="radio" id="Other" name="gender" value="Other">
+        <label for="Other">Other</label>
+        <br>
+        <br>
+        <label for="check">Vehicles You have:</label>
+        <input type="checkbox" id="check" name="Vehicles" value="Car">
+        <label for="Car">Car</label>
+        <input type="checkbox" id="check" name="Vehicles" value="Bike">
+        <label for="Bike">Bike</label>
+        <br>
+        <br>
+        <label for="pass">Password:</label>
+        <input type="password" name="Password" id="Password" placeholder="Enter Your Password">
+        <br>
+        <br>
+        <label for="select">Select Your Programming Language </label>
+        <select name="Select" id="Name">
+            <optgroup label="Select" ></optgroup>
+            <option value="C++">C++</option>
+            <option value="C">C</option>
+            <option value="Python">Python</option>
+            <option value="Java">Java</option>
+            <option value="React">React</option>
+            <option value="Node.js">Node.js</option>
+
+        </select>
+        <label for="button" ></label>
+        <input type="button" name="button" id="button" >
+    </fieldset>
+</body>
+</html>
